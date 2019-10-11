@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="mytest">
+    <test name="param_test01">
+        <classes>
+            <class name="com.course.tetstng.parameter.Param_test01"></class>
+            <parameter name="name" value="Jun"></parameter>
+            <parameter name="age" value="26"></parameter>
+            <parameter name="team" value="这是一个Team"></parameter>
+        </classes>
+    </test>
+
+</suite>

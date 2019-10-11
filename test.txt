@@ -1,6 +1,0 @@
-This is git test.
-Update file info in the git respositories.
-Update by branch1
-branch1 branch1
-这是需要合并的内容
-test new 

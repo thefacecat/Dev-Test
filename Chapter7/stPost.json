@@ -1,0 +1,21 @@
+[
+  {
+    "description": "我手写的Post接口",
+    "request": {
+      "uri": "/postMe",
+      "method": "post",
+      "forms": {
+        "name": "Jun",
+        "age": "26",
+        "sex": "man"
+      }
+    },
+    "response": {
+      "text": "接口返回成功",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+
+  }
+]
