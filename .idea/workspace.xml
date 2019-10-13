@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43cf9ec0-e65f-4c3b-b2cc-dce9a21d2c15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/RealMyGet01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
@@ -26,17 +27,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter7/startupWithCookies.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="171">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1159">
+              <caret line="88" column="26" lean-forward="true" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="71" column="27" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java">
+        <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/RealMyGet01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="88" column="26" lean-forward="true" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+            <state relative-caret-position="261">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter9/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -123,6 +148,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ExtentHtml</find>
+      <find>/getCookies</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,10 +200,11 @@
         <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyGet02.java" />
         <option value="$PROJECT_DIR$/Chapter7/startupCookies.json" />
         <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java" />
-        <option value="$PROJECT_DIR$/Chapter7/startupWithCookies.json" />
         <option value="$PROJECT_DIR$/Chapter9/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/Chapter9/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java" />
+        <option value="$PROJECT_DIR$/Chapter7/startupWithCookies.json" />
+        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/RealMyGet01.java" />
       </list>
     </option>
   </component>
@@ -188,7 +215,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="656" />
     <option name="y" value="32" />
     <option name="width" value="1253" />
@@ -314,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MyCookiesForPost">
+  <component name="RunManager" selected="TestNG.RealMyGet01">
     <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter9" />
       <extension name="coverage">
@@ -326,42 +353,6 @@
       <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
       <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyCookiesForGet.testGetCookies (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter9" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
-      <option name="METHOD_NAME" value="testGetCookies" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyCookiesForGet.testGetCookies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter9" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
-      <option name="METHOD_NAME" value="testGetCookies" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -385,17 +376,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyGet02.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RealMyGet01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter9" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.httpclient.demo.*" />
+          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.httpclient.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.demo.MyGet02" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.RealMyGet01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealMyGet01.getTest01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.RealMyGet01" />
+      <option name="METHOD_NAME" value="getTest01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealMyGet01.getWithCookies" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.RealMyGet01" />
+      <option name="METHOD_NAME" value="getWithCookies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -405,11 +431,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RealMyGet01" />
+        <item itemvalue="TestNG.RealMyGet01.getWithCookies" />
+        <item itemvalue="TestNG.RealMyGet01.getTest01" />
         <item itemvalue="TestNG.MyCookiesForPost" />
         <item itemvalue="TestNG.MyCookiesForGet" />
-        <item itemvalue="TestNG.MyCookiesForGet.testGetCookies" />
-        <item itemvalue="TestNG.MyCookiesForGet.testGetCookies (1)" />
-        <item itemvalue="TestNG.MyGet02.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -428,44 +454,44 @@
       <workItem from="1570232657567" duration="21290000" />
       <workItem from="1570460607659" duration="2239000" />
       <workItem from="1570574915874" duration="5551000" />
-      <workItem from="1570717495203" duration="4706000" />
+      <workItem from="1570717495203" duration="9687000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyCookiesForGet_testGetCookies - 2019.10.10 at 22h 28m 43s.xml">
-      <configuration name="MyCookiesForGet.testGetCookies" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesForGet - 2019.10.10 at 22h 29m 14s.xml">
-      <configuration name="MyCookiesForGet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesForGet - 2019.10.10 at 22h 30m 50s.xml">
-      <configuration name="MyCookiesForGet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesForGet - 2019.10.10 at 22h 34m 45s.xml">
-      <configuration name="MyCookiesForGet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesForGet - 2019.10.10 at 22h 36m 09s.xml">
-      <configuration name="MyCookiesForGet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesForGet - 2019.10.10 at 22h 44m 00s.xml">
-      <configuration name="MyCookiesForGet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesForGet - 2019.10.10 at 22h 55m 44s.xml">
-      <configuration name="MyCookiesForGet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesForPost - 2019.10.11 at 08h 07m 44s.xml">
-      <configuration name="MyCookiesForPost" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesForPost - 2019.10.11 at 08h 11m 49s.xml">
-      <configuration name="MyCookiesForPost" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="MyCookiesForPost - 2019.10.11 at 08h 12m 06s.xml">
       <configuration name="MyCookiesForPost" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="RealMyGet01 - 2019.10.11 at 22h 55m 44s.xml">
+      <configuration name="RealMyGet01" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RealMyGet01 - 2019.10.11 at 22h 56m 29s.xml">
+      <configuration name="RealMyGet01" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RealMyGet01_getTest01 - 2019.10.11 at 23h 03m 12s.xml">
+      <configuration name="RealMyGet01.getTest01" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RealMyGet01 - 2019.10.11 at 23h 04m 00s.xml">
+      <configuration name="RealMyGet01" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RealMyGet01_getTest01 - 2019.10.11 at 23h 05m 45s.xml">
+      <configuration name="RealMyGet01.getTest01" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RealMyGet01_getWithCookies - 2019.10.12 at 01h 37m 11s.xml">
+      <configuration name="RealMyGet01.getWithCookies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RealMyGet01 - 2019.10.12 at 01h 38m 43s.xml">
+      <configuration name="RealMyGet01" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RealMyGet01_getWithCookies - 2019.10.12 at 01h 40m 59s.xml">
+      <configuration name="RealMyGet01.getWithCookies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RealMyGet01 - 2019.10.12 at 01h 44m 07s.xml">
+      <configuration name="RealMyGet01" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56453000" />
+    <option name="totallyTimeSpent" value="61434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,10 +503,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="602" y="50" width="1002" height="796" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.27012712" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.17024128" />
       <window_info id="Structure" order="1" sideWeight="0.5011442" side_tool="true" weight="0.32669324" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,7 +515,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5011442" side_tool="true" weight="0.32669324" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49773243" visible="true" weight="0.42319277" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49773243" visible="true" weight="0.398017" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,9 +523,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298193" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.37650603" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3753541" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5022676" side_tool="true" weight="0.42331287" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4988662" weight="0.3192771" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4988662" weight="0.3186969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -515,17 +541,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/tetstng/suite/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/tetstng/suite/PayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -904,10 +919,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java">
+    <entry file="file://$PROJECT_DIR$/Chapter9/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="65">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="88" column="26" lean-forward="true" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -916,29 +938,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter9/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter9/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter7/startupWithCookies.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="171">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java">
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="88" column="26" lean-forward="true" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+        <state relative-caret-position="90">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/RealMyGet01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
